@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Data, outputs, caches, and third-party baseline clones
+out/
+tmp/
+external_baselines/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.npz
+*.pt
+*.pkl
+*.log
+
+# OS / editor junk
+.DS_Store
+._*
+.vscode/
+.idea/
